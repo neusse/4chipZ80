@@ -1,0 +1,570 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ff1a216a-11c4-42bb-a05c-4470cb132529)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1b05dd9c-e8d2-44f0-bed9-6fdab459908a)
+    (property "Sheet name" "Z80-4chip-v3_3" (id 0) (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Z80-4chip-v3_3.kicad_sch" (id 1) (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 543cdcc9-b6c0-4ffa-8c1a-1343da02fa08)
+    (property "Sheet name" "Z80-4chip-v3_5" (id 0) (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Z80-4chip-v3_5.kicad_sch" (id 1) (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 881f1110-e8f9-46f8-a7e5-42b5c03da65e)
+    (property "Sheet name" "Z80-4chip-v3_4" (id 0) (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Z80-4chip-v3_4.kicad_sch" (id 1) (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b160705c-b2aa-44f9-a487-ccdb694cb7f4)
+    (property "Sheet name" "Z80-4chip-v3_2" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Z80-4chip-v3_2.kicad_sch" (id 1) (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4" (page "2"))
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a" (page "3"))
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e" (page "4"))
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/0eaa36b6-8565-411c-ad4c-14bf2b1bae6a"
+      (reference "#GND1") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/6c6468d7-dc83-4f51-b330-8d533ea34495"
+      (reference "#GND2") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/00badcce-ba49-483a-b6b9-404042a57b2d"
+      (reference "#GND3") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/0195caec-d000-43f6-b940-6f87eacbe9b5"
+      (reference "#GND4") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/ba797573-9040-4926-aabd-e83019f0255e"
+      (reference "#GND5") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/00ac9baa-0700-44c9-8bd7-5004c87f4302"
+      (reference "#GND6") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/61b99d1d-555d-4557-a744-c1bb4a979700"
+      (reference "#GND7") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/97745bf6-b0d8-4aa4-b7e5-c761e3bfd164"
+      (reference "#GND8") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/70bc1b82-3faf-47a2-8f99-b5900a78f009"
+      (reference "#GND9") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/a8f18077-7649-4110-b9f7-7c30e0b1f7c5"
+      (reference "#GND10") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/43a57d52-4f37-4745-8cd3-177085c9a922"
+      (reference "#GND11") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/a2226eec-d2a7-4bf6-a1cb-09ac6d52e35e"
+      (reference "#GND12") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/5df6a0f9-e606-4193-a20b-de1442ba72e5"
+      (reference "#GND13") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/e078410c-5a7b-4d2b-ac2d-e64a2be7819b"
+      (reference "#GND14") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/708cc120-0c14-496c-9d8a-a1c93b13a730"
+      (reference "#GND15") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/6cf5fc14-964e-451f-9b31-06e4519f857f"
+      (reference "#GND16") (unit 1) (value "GND") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/0817ab1c-b462-49b8-91a2-249ee8bcd3cf"
+      (reference "#P+1") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/489efdc8-09e2-4517-90d2-cc56698ecbc0"
+      (reference "#P+2") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/0719e67f-f608-4403-ac15-999fd35b4d70"
+      (reference "#P+3") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/8d310f14-ca29-475d-bbaa-15cc79b6fe67"
+      (reference "#P+4") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/85258fe0-690e-4cc3-808e-32da9850ee94"
+      (reference "#P+5") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/333e753e-3023-4984-82fa-e7938a391da0"
+      (reference "#P+6") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/f94a2994-9165-43c9-b817-6cbc8f27ff81"
+      (reference "#P+7") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/a4bb9b69-3cec-44d3-945f-b727a447ae3e"
+      (reference "#P+8") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/2006f8c1-ef67-4035-9ee5-81f7bc417da4"
+      (reference "#P+9") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/386c8477-f649-4be2-9173-5b7adcaaff0f"
+      (reference "#P+10") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/c30b8ca2-ee2a-4d62-a0c0-ae8961c549ab"
+      (reference "#P+11") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/0b55049a-805d-4174-8d0c-641f9827cc7a"
+      (reference "#P+12") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/486479fa-eb92-4164-8582-80a7102cf49c"
+      (reference "#P+13") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/73393dd1-2dac-40ce-a782-48b582dab639"
+      (reference "#P+14") (unit 1) (value "VCC") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f51d216a-4c38-455d-b84c-6e6b7d677786"
+      (reference "#U$1") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/0a772bdb-2bb4-4744-ae5c-01cdb4458353"
+      (reference "#U$2") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f0cdda2a-420d-4592-953f-74b3a825885b"
+      (reference "#U$3") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/04178ddd-067d-414c-b169-c2d3228e7439"
+      (reference "#U$4") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/86575fe5-55db-4567-b909-1d556157c637"
+      (reference "#U$5") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f1efd04d-6648-4194-86f2-8ed70681b7c3"
+      (reference "#U$6") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/cfc867b6-55a5-4c02-93a0-1c0b910c81b8"
+      (reference "#U$7") (unit 1) (value "PORT-BI-BUS") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/6c300a6d-3051-484b-8540-348af1636f84"
+      (reference "#U$8") (unit 1) (value "PORT-BI-BUS") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/40fb59fc-8468-42f1-b2a6-3a4ebe377a7c"
+      (reference "#U$9") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/51073cdb-7d66-400e-ade9-ead606972065"
+      (reference "#U$10") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/e1426a40-fecf-4a55-9c72-7e3ed5c92eed"
+      (reference "#U$11") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/0d1ed093-819b-4371-9e3f-58872dd62ad4"
+      (reference "#U$12") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/8a3a3acc-523d-4b7e-9ea2-ea3f0f0613b6"
+      (reference "#U$13") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/063b959d-e2a3-4a67-8dbd-f252ec5156a1"
+      (reference "#U$14") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/b2b93576-4dc9-4ece-9d18-a804092df06e"
+      (reference "#U$15") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/7a9f83b7-02ad-4821-8c53-9c307fe999d3"
+      (reference "#U$16") (unit 1) (value "PORT-BI-BUS") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/ae0df8a0-0de9-4d42-95b0-26cb560ec86b"
+      (reference "#U$17") (unit 1) (value "PORT-BI-BUS") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/bb317e44-3cc9-4c65-b144-542fe374167e"
+      (reference "#U$18") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/8d028472-bb43-479d-b5e7-275fa5406206"
+      (reference "#U$19") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/cc18d5db-d3c1-4c27-830f-cdec7fe19902"
+      (reference "#U$20") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/145f854a-9914-4147-83b2-39eb49bba3a3"
+      (reference "#U$21") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/96f39327-ca2b-4253-9408-118b972d12d2"
+      (reference "#U$22") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/8212a03c-51a0-4a21-bff5-96437f8080eb"
+      (reference "#U$23") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/7249c48d-d4ff-4eff-a146-75f46f45e63c"
+      (reference "#U$24") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/a5cf255f-da40-4372-8129-298021a677d2"
+      (reference "#U$25") (unit 1) (value "PORT-IN") (footprint "Z80-4chip-v3:")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/862750b9-a78c-4336-818d-3cfcaac27c06"
+      (reference "#U$26") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/0e9fb74a-576d-4703-950e-df127426b587"
+      (reference "#U$27") (unit 1) (value "PORT-BI") (footprint "Z80-4chip-v3:")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/19f62f39-4d3a-44cb-b4d2-86066454bc6b"
+      (reference "#U$28") (unit 1) (value "PORT-OUT") (footprint "Z80-4chip-v3:")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/84a239b4-7bcb-4387-8f7f-38b742a6c32d"
+      (reference "A0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/d93cbe9a-30bd-4507-be5d-5ec63e9269e1"
+      (reference "A1") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/ac51b4e1-ea63-4d3c-bebe-53d5f72c8deb"
+      (reference "A2") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/3e80154f-5b6b-46cf-a2cc-137393759978"
+      (reference "A3") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/80406b93-e1de-43f6-81d0-c21b16b0a85a"
+      (reference "A4") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/2ce904e9-64df-4dfa-a234-eb1c45070e4d"
+      (reference "A5") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/b5736b6d-f1b5-4ef2-8193-64f91a4e1c17"
+      (reference "A6") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/1adcaecb-962b-4eb4-9229-bdb3ff38da51"
+      (reference "A7") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f88a9fa5-5467-4fb2-ae0a-d3d9f5dba048"
+      (reference "A8") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/47fc8fee-9086-48d7-9a53-52c8032e3095"
+      (reference "A9") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/71f897fa-93df-4cb9-b27e-cd5f961a57a2"
+      (reference "A10") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/450d699b-71b6-4182-b8e0-f3c57ca930d0"
+      (reference "A11") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/468fa1af-52d7-44f4-8ae3-776c53f68dfd"
+      (reference "A12") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/cc3b8bd5-0d57-4989-958f-ed94529707df"
+      (reference "A13") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/9241c497-5caa-48e9-a12c-d9666e53f304"
+      (reference "A14") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/db912758-9b84-4faa-94bc-b99a7b1eba38"
+      (reference "A15") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/c7b51bb3-7978-4fbb-ac9f-9912b47d65e0"
+      (reference "A16") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/b3a5fc38-1b7e-4e83-87f1-74af551b78b1"
+      (reference "BUSAK0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f03cb05b-578a-4e04-bab4-5d2e2bfba0c3"
+      (reference "BUSREQ0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/ed0eb0bd-0861-4149-ac23-48ba08592b8a"
+      (reference "C1") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/ef86567c-3afa-4834-abd7-6b101e69b874"
+      (reference "C2") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/9081673b-4dd9-42b2-9865-409017fc9b35"
+      (reference "C3") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/204ba482-db0d-4bc2-a874-97fb6ddf32f8"
+      (reference "C4") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/cc4a4a19-ed30-41f4-a09d-4aad40b56f6a"
+      (reference "C5") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/f621cf19-faa2-405e-976a-9cb6ae3a1bf4"
+      (reference "C6") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/5697670f-f5b7-4d48-a2dd-2ca182be58dc"
+      (reference "C7") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/3605aa29-52f1-41bb-a4d2-521796727c46"
+      (reference "C8") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C1206")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/24efdc3d-3ae2-48e5-802a-1be0bed34bf9"
+      (reference "C9") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C1206")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/abb6bfbd-42f2-45a7-9d6d-6299bc289872"
+      (reference "C10") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C1206")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/f7e25d0e-1de1-466e-a1b3-3511df6ec1a8"
+      (reference "C11") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C1206")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/f5916acc-845b-4b60-b999-e3668e396a7a"
+      (reference "C12") (unit 1) (value "0u1") (footprint "Z80-4chip-v3:C1206")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/98f3a4cb-ec43-472e-8454-50aa8b991bab"
+      (reference "C13") (unit 1) (value "10u") (footprint "Z80-4chip-v3:E2,5-6")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/1c9e0330-6ef1-4771-87ae-626f79e81062"
+      (reference "C14") (unit 1) (value "10u") (footprint "Z80-4chip-v3:E2,5-6")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/4a404df1-dc5e-477a-8c7b-0784830c8fbd"
+      (reference "C15") (unit 1) (value "10u") (footprint "Z80-4chip-v3:E2,5-6")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/c30299a4-621a-4ccc-87a3-8387cd6970b8"
+      (reference "C16") (unit 1) (value "C-US-5MM") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/dd87c739-c5d4-4b66-b19b-05238e70b816"
+      (reference "C17") (unit 1) (value "C-US-5MM") (footprint "Z80-4chip-v3:C050-024X044")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/261da601-e590-43dd-8097-120d2031bb7d"
+      (reference "CLK0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/6af3236a-8fd1-4fab-b5c4-4da47ce8fc5f"
+      (reference "D0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/20f3b2d3-afe5-455b-9f4d-1c6a86e1e04f"
+      (reference "D1") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/fb5f86ee-26a9-4a1d-a719-57e8fefedc00"
+      (reference "D2") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/4833b660-d778-42a1-9db1-e9d9d1bf531e"
+      (reference "D3") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/0fa4c32f-423d-449e-9b5a-d6ec0bdf8f21"
+      (reference "D4") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/7e3bd560-3b03-457d-879e-73be863e4bec"
+      (reference "D5") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/6eaa31be-d1cf-4b87-9fc9-09d8ce70ab84"
+      (reference "D6") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/28b2d31c-7929-428f-93dd-6dcccba9f40a"
+      (reference "D7") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/7603f4cd-3f99-457a-9316-c619fb514da7"
+      (reference "D8") (unit 1) (value "1n4148") (footprint "Z80-4chip-v3:DO35-5")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/86756d9c-7c5a-4e5c-b403-ba80dd89616a"
+      (reference "D9") (unit 1) (value "1m4148") (footprint "Z80-4chip-v3:DO35-5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/d86fce71-b966-4b39-9ab8-e258c307c348"
+      (reference "FTDI0") (unit 1) (value "FTDI-TTL232R") (footprint "Z80-4chip-v3:MA06-1")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/d5901f52-9e3c-491a-b491-06637741838c"
+      (reference "GND0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/41001d12-41c8-4edc-af68-4c9604db2707"
+      (reference "HALT0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/4246b715-6521-4db6-8110-929bb439dcf2"
+      (reference "I2CG0") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/2aeb6347-b354-4925-9130-bd67a9f412be"
+      (reference "I2CGND0") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/79a56cd5-01b9-4496-b467-6f5d618f55f1"
+      (reference "I2CV0") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/2e165a91-b5ca-4863-8236-00ed796ebbdb"
+      (reference "IC1") (unit 1) (value "Z84C00xx (-Z80-)") (footprint "Z80-4chip-v3:DIL40")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/0d06d467-d724-472f-8b81-934385186b42"
+      (reference "IC2") (unit 1) (value "CXK581000  (128k * 8)") (footprint "Z80-4chip-v3:DIL32")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/8a321744-590e-4be8-8a80-a26d91d9d549"
+      (reference "IC3") (unit 1) (value "24FC1025") (footprint "Z80-4chip-v3:DIL8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/96323352-8e13-45e5-890e-d63f4c1ea3a0"
+      (reference "IC4") (unit 1) (value "7400N") (footprint "Z80-4chip-v3:DIL14")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/d8dbba5b-df54-4295-827a-f06babed670e"
+      (reference "IC4") (unit 2) (value "7400N") (footprint "Z80-4chip-v3:DIL14")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/260eb212-bb98-4afa-879a-2521c4887ec0"
+      (reference "IC4") (unit 3) (value "7400N") (footprint "Z80-4chip-v3:DIL14")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/de806fa5-4f46-46ac-a36b-61da8b22142d"
+      (reference "IC4") (unit 4) (value "7400N") (footprint "Z80-4chip-v3:DIL14")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/a25e644a-5d9a-4fe2-94f2-4b6eb8e7d278"
+      (reference "IC4") (unit 5) (value "7400N") (footprint "Z80-4chip-v3:DIL14")
+    )
+    (path "/543cdcc9-b6c0-4ffa-8c1a-1343da02fa08/35f60921-3dec-4bc9-a313-01c960f5ab04"
+      (reference "IC5") (unit 1) (value "24FC1025") (footprint "Z80-4chip-v3:DIL8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f81edd83-d2c3-4cfb-ad33-a29d775b973f"
+      (reference "INT0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/570d0a73-52d0-43f6-90ce-8b8db21ca55d"
+      (reference "IORQ0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/b71d4815-469d-4c12-8dc5-1e7335cb7c40"
+      (reference "LED_DMA0") (unit 1) (value "LED3MM") (footprint "Z80-4chip-v3:LED3MM")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/e210f085-b0b4-4179-882a-e4789d77f9cb"
+      (reference "LED_HALT0") (unit 1) (value "LED3MM") (footprint "Z80-4chip-v3:LED3MM")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/29d3b445-9a86-43bb-91dd-f35fa39f9a18"
+      (reference "LED_IORQ0") (unit 1) (value "LED3MM") (footprint "Z80-4chip-v3:LED3MM")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/b85699ec-ae25-4887-82c2-6f176b6e5b90"
+      (reference "LED_USR0") (unit 1) (value "LED3MM") (footprint "Z80-4chip-v3:LED3MM")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/59b88787-0ac1-4027-bcfd-cf6fb2636781"
+      (reference "L_DO0") (unit 1) (value "LED3MM") (footprint "Z80-4chip-v3:LED3MM")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/c9856a80-bf39-45d8-a0b8-941644014e99"
+      (reference "M1") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/cef7c738-c2da-4a57-b1e3-a2e9bdadd4f5"
+      (reference "MREQ0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/f2cc6b53-76a2-45b5-ad4d-18f27044d4b8"
+      (reference "NMI0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/45931d96-f1be-4f63-8fa8-10c89738674a"
+      (reference "PWR2") (unit 1) (value "JST_2PIN-THM") (footprint "Z80-4chip-v3:JST-PH-2-THM")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/9cb9ca7c-ce37-4ffa-8b1e-f5a31383b29e"
+      (reference "R1") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/502a0369-94a4-4423-a636-3413a494e92d"
+      (reference "R2") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/9080377b-2a3e-45b6-a4f5-40eb290f1fdc"
+      (reference "R3") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/5c4f0107-3cfe-4070-9b25-4d1be54a6220"
+      (reference "R4") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/34083ebd-74b9-4b94-badf-24e72d4faf1e"
+      (reference "R5") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/5392a5b0-bfec-4f10-903d-432778f6e13e"
+      (reference "R6") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/298d514b-c806-4cee-8f6c-c84c49f86110"
+      (reference "R7") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/8ab7bc49-b459-47cc-ad0e-43aebaa78e97"
+      (reference "R8") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/be31e560-5f9a-4b7e-bfd6-c2b72f16f2e4"
+      (reference "R9") (unit 1) (value "4.7k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/c113be33-85ee-4d1e-b1bd-412c7ded87fc"
+      (reference "R10") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/c29c7ff0-8732-481a-a178-09b4d5064f21"
+      (reference "R11") (unit 1) (value "4.7k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/d2d71dec-4214-4871-87b3-fa586baab4db"
+      (reference "R12") (unit 1) (value "Rled") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/2d2e02a6-1cb9-4874-a18b-56c9349af94f"
+      (reference "R13") (unit 1) (value "Rled") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/2c7a3123-64e3-4ebe-8b49-65625823fa57"
+      (reference "R14") (unit 1) (value "Rled") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/de8aa87a-104b-4a5e-8639-4e477f74d6d9"
+      (reference "R15") (unit 1) (value "Rled") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/b34d3a27-71e1-4601-bea8-bdaf0ce61a27"
+      (reference "R16") (unit 1) (value "680") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/155048d0-cd2f-48a7-8790-fc85cb93edf7"
+      (reference "R17") (unit 1) (value "360") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/d2f72c72-2869-4ef7-9661-0b496a1d9fb5"
+      (reference "R18") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/943069de-6110-4777-a649-3cb68216891b"
+      (reference "R19") (unit 1) (value "10k") (footprint "Z80-4chip-v3:0204_5")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/8a8fbf2c-26ec-4947-9603-45d42eb874b4"
+      (reference "RD0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/7a60515d-0f10-4e44-b774-bd71ae8e6212"
+      (reference "RESET0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/e99ee7a9-3f6d-48d2-9aea-7255ca924bb1"
+      (reference "RFSH0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/d1b77903-770b-48ad-8043-6344dceb9eea"
+      (reference "SCL0") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/d570ae55-ee8c-436b-a1ff-a3ee21fde23f"
+      (reference "SDA0") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/3a2db12b-803a-41d6-b431-63e0ecc3bfa2"
+      (reference "SW-RST0") (unit 1) (value "SW-PB2/") (footprint "Z80-4chip-v3:SW-PB")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/1286258f-922c-41ed-bc1b-030958e18cd7"
+      (reference "SW-USR0") (unit 1) (value "SW-PB2L") (footprint "Z80-4chip-v3:SW-PB")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/cebec35c-32e0-4a09-8822-783d0052739d"
+      (reference "U1") (unit 1) (value "ATMEGA32A-PU") (footprint "Z80-4chip-v3:DIP254P1524X482-40")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/7309ab9d-0641-472f-b205-3ef219ecda50"
+      (reference "VCC0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/5120faaa-2312-4586-8b7d-960e6c006f80"
+      (reference "W1") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/22a179a9-2486-47b0-b9b1-fee11e49017b"
+      (reference "W2") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/1356ce57-3e3a-4f93-a4db-5bd7e757e52a"
+      (reference "W3") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/881f1110-e8f9-46f8-a7e5-42b5c03da65e/b0cad4af-f46d-461d-b97a-f64086dd587d"
+      (reference "W4") (unit 1) (value "WIRE-R10") (footprint "Z80-4chip-v3:VIA10")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/aabfb85a-ec80-4357-8b8c-3a8ce8b5778d"
+      (reference "WAIT0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/b160705c-b2aa-44f9-a487-ccdb694cb7f4/3ac3a9ae-7f03-486c-bf56-8972d3d55f72"
+      (reference "WR0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/6681c783-ddaf-4801-b3c0-a2a544242f0d"
+      (reference "XIN0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+    (path "/1b05dd9c-e8d2-44f0-bed9-6fdab459908a/2d3d3292-687e-4cfb-8f4d-03f8a7bb32e0"
+      (reference "XOUT0") (unit 1) (value "WIRE-VIA8") (footprint "Z80-4chip-v3:VIA8")
+    )
+  )
+)
